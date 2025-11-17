@@ -2,7 +2,7 @@
 
 
 $servername = "localhost";
-$database = "uinsi32_2441919013";
+$database = "uinsi32";
 $username = "root";
 $password =  "";
 
@@ -16,6 +16,4 @@ if (!$conn) {
     die("Koneksi Gagal".mysqli_connect_error());
 }
 
-echo "Koneksi Gacor!";
-// mysqli_close();
 ?>
